@@ -15,4 +15,4 @@ with app.app_context():
     db.session.add(c)
     db.session.add(c2)
     db.session.commit()
-    print(Cancion.query.all())
+    print(Cancion.query.all())  
